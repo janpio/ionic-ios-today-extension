@@ -14,6 +14,11 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		320515A589CB42DBA1A7424E /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 704FF7C5E21E4A64A5F762F2 /* CDVStatusBar.m */; };
+		64A2B80C1E92CD5C008EECDF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A2B80B1E92CD5C008EECDF /* NotificationCenter.framework */; };
+		64A2B80F1E92CD5C008EECDF /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2B80E1E92CD5C008EECDF /* TodayViewController.swift */; };
+		64A2B8121E92CD5C008EECDF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A2B8101E92CD5C008EECDF /* MainInterface.storyboard */; };
+		64A2B8161E92CD5C008EECDF /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 64A2B80A1E92CD5C008EECDF /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64A2B81B1E92CF46008EECDF /* www in Resources */ = {isa = PBXBuildFile; fileRef = EB87FDF31871DA8E0020F90C /* www */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		745CEB46EE12410796B04C89 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9358BD16D1FA4303AD4E3097 /* CDVDevice.m */; };
 		9E9E02A44AD048919A951CB8 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FA69EE48E74825A2B16502 /* CDVLogger.m */; };
@@ -37,7 +42,28 @@
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = CordovaLib;
 		};
+		64A2B8141E92CD5C008EECDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A2B8091E92CD5C008EECDF;
+			remoteInfo = Widget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64A2B81A1E92CD5C008EECDF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				64A2B8161E92CD5C008EECDF /* Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00711D5754B744849D5CBC70 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; };
@@ -60,6 +86,11 @@
 		47F2ADC5156047A38994AC9F /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; };
 		611D396256164890BD26EB69 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
 		63C7476323F3493787EF5246 /* CDVLogger.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLogger.h; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; };
+		64A2B80A1E92CD5C008EECDF /* Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A2B80B1E92CD5C008EECDF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		64A2B80E1E92CD5C008EECDF /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		64A2B8111E92CD5C008EECDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		64A2B8131E92CD5C008EECDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "ionic-ios-today-extension/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
 		704FF7C5E21E4A64A5F762F2 /* CDVStatusBar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ionic-ios-today-extension-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ionic-ios-today-extension-Info.plist"; path = "ionic-ios-today-extension/ionic-ios-today-extension-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
@@ -83,6 +114,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64A2B8071E92CD5C008EECDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A2B80C1E92CD5C008EECDF /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -103,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* ionic-ios-today-extension.app */,
+				64A2B80A1E92CD5C008EECDF /* Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +158,7 @@
 				307C750510C5A3420062BCA9 /* Plugins */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				64A2B80D1E92CD5C008EECDF /* Widget */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -150,6 +191,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64A2B80B1E92CD5C008EECDF /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +234,16 @@
 			path = "ionic-ios-today-extension/Plugins";
 			sourceTree = SOURCE_ROOT;
 		};
+		64A2B80D1E92CD5C008EECDF /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				64A2B80E1E92CD5C008EECDF /* TodayViewController.swift */,
+				64A2B8101E92CD5C008EECDF /* MainInterface.storyboard */,
+				64A2B8131E92CD5C008EECDF /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
 		EB87FDF11871DA420020F90C /* Staging */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,16 +264,35 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				64A2B81A1E92CD5C008EECDF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
+				64A2B8151E92CD5C008EECDF /* PBXTargetDependency */,
 			);
 			name = "ionic-ios-today-extension";
 			productName = "ionic-ios-today-extension";
 			productReference = 1D6058910D05DD3D006BFB54 /* ionic-ios-today-extension.app */;
 			productType = "com.apple.product-type.application";
+		};
+		64A2B8091E92CD5C008EECDF /* Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A2B8171E92CD5C008EECDF /* Build configuration list for PBXNativeTarget "Widget" */;
+			buildPhases = (
+				64A2B8061E92CD5C008EECDF /* Sources */,
+				64A2B8071E92CD5C008EECDF /* Frameworks */,
+				64A2B8081E92CD5C008EECDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widget;
+			productName = Widget;
+			productReference = 64A2B80A1E92CD5C008EECDF /* Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -229,9 +300,15 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 4Z338HBBX3;
+						ProvisioningStyle = Automatic;
+					};
+					64A2B8091E92CD5C008EECDF = {
+						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4Z338HBBX3;
 						ProvisioningStyle = Automatic;
 					};
@@ -243,6 +320,7 @@
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -255,6 +333,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* ionic-ios-today-extension */,
+				64A2B8091E92CD5C008EECDF /* Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -277,6 +356,15 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A2B8081E92CD5C008EECDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A2B81B1E92CF46008EECDF /* www in Resources */,
+				64A2B8121E92CD5C008EECDF /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +405,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64A2B8061E92CD5C008EECDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A2B80F1E92CD5C008EECDF /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -325,13 +421,30 @@
 			name = CordovaLib;
 			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
 		};
+		64A2B8151E92CD5C008EECDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A2B8091E92CD5C008EECDF /* Widget */;
+			targetProxy = 64A2B8141E92CD5C008EECDF /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64A2B8101E92CD5C008EECDF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A2B8111E92CD5C008EECDF /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -360,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -377,6 +491,86 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = "ionic-ios-today-extension";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64A2B8181E92CD5C008EECDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4Z338HBBX3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ionicframework.ioniciostodayextension512423.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64A2B8191E92CD5C008EECDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4Z338HBBX3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ionicframework.ioniciostodayextension512423.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -442,6 +636,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		64A2B8171E92CD5C008EECDF /* Build configuration list for PBXNativeTarget "Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A2B8181E92CD5C008EECDF /* Debug */,
+				64A2B8191E92CD5C008EECDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ionic-ios-today-extension" */ = {
 			isa = XCConfigurationList;
