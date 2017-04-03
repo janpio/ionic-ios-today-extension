@@ -23,6 +23,7 @@
 		64C9019B1E92B87600D30605 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9019A1E92B87500D30605 /* TodayViewController.swift */; };
 		64C9019E1E92B87600D30605 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C9019C1E92B87600D30605 /* MainInterface.storyboard */; };
 		64C901A21E92B87600D30605 /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 64C901961E92B87500D30605 /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64C901A91E92BFF300D30605 /* www in Resources */ = {isa = PBXBuildFile; fileRef = EB87FDF31871DA8E0020F90C /* www */; };
 		66ED5594A5FD4469953A9278 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD0D2BD9D34DB98A745A70 /* CDVViewController+SplashScreen.m */; };
 		C84672080D89430394063807 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D0275AE7BD4255A7C77CA6 /* IonicKeyboard.m */; };
 		D9568646389B41E19A5AA3EE /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B577DFFBD6D84FB7AD058545 /* CDVDevice.m */; };
@@ -359,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C901A91E92BFF300D30605 /* www in Resources */,
 				64C9019E1E92B87600D30605 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

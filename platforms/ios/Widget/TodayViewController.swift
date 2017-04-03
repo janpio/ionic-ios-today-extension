@@ -9,11 +9,19 @@
 import UIKit
 import NotificationCenter
 
-class TodayViewController: UIViewController, NCWidgetProviding {
-        
+class TodayViewController: UIViewController, NCWidgetProviding, UIWebViewDelegate {
+    
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view from its nib.
+        
+        let path = Bundle.main.path(forResource: "index", ofType: "html", inDirectory:"www")
+        let url = URL(string: path!)
+        let request = URLRequest(url: url!)
+        webView.loadRequest(request)
+        self.webView.delegate = self
     }
     
     override func didReceiveMemoryWarning() {
